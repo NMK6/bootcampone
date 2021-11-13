@@ -1,12 +1,12 @@
 * {
   box-sizing: border-box;
-}
-body {
   padding: 0;
   margin: 0;
+}
+body {
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
-  color: #222222;
+  color: #575757;
   font-weight: 400;
 }
 img {
@@ -19,12 +19,13 @@ h3 {
   color: #000;
   font-weight: 600;
 }
+p {
+  color: #575757;
+}
 a {
   text-decoration: none;
   color: #222222;
-}
-a:active {
-  color: #0065fc;
+  font-weight: 600;
 }
 .full-height-container {
   min-height: 100vh;
@@ -37,11 +38,11 @@ a:active {
   display: flex;
   justify-content: center;
   width: 100%;
-  padding: 0 35px;
   background-color: #fff;
   flex: 1;
 }
 .page__content {
+  padding: 0 35px;
   width: 992px;
 }
 .header {
@@ -50,18 +51,38 @@ a:active {
 .logo-nav__container {
   display: flex;
   justify-content: space-between;
-  padding-top: 35px;
+  padding-top: 32px;
   width: 100%;
 }
 .logo {
-  width: 48px;
-  height: 32px;
+  width: 45px;
+  height: 29px;
 }
+
 .nav__ul {
   display: flex;
-  gap: 20px;
+  gap: 40px;
   list-style: none;
-  font-size: 14px;
+  font-size: 11px;
+}
+.nav__li {
+  position: relative;
+}
+.nav__li:last-child {
+  padding-right: 15px;
+}
+.nav__li::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  top: -30px;
+  padding: 0 12px;
+  background-color: #fff;
+  right: -12px;
+}
+.nav__li--clicked::before {
+  background-color: #0065fc;
 }
 a.nav__a {
   color: #575757;
