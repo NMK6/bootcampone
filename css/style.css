@@ -266,7 +266,7 @@ i.fa-info {
   height: 432px;
   background-color: #f2f2f2;
   border-radius: 15px;
-  padding: 33px 30px;
+  padding: 33px 27px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -274,16 +274,15 @@ i.fa-info {
 .accommodations__cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 20px 13px;
+  gap: 20px 17px;
 }
 .card {
-  width: 173px;
+  width: 172px;
   height: 140px;
   background-color: #fff;
   border-radius: 18px;
   flex-direction: column;
   padding: 4px;
-  /* gap: 4px; */
 }
 .card--horizontal {
   flex-direction: row;
