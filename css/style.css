@@ -188,12 +188,33 @@ a.nav__a--clicked {
   border-right: 2px solid #f2f2f2;
   border-radius: 30px;
 }
+.checkbox__input {
+  visibility: hidden;
+  display: block;
+  height: 0;
+  width: 0;
+  position: absolute;
+  overflow: hidden;
+}
 .checkbox__new-input {
   width: 34px;
   height: 34px;
   background-color: #deebff;
   border: none;
   border-radius: 50%;
+  transition: 1s all ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkbox__new-input .fas {
+  color: #0065fc;
+  font-size: 14px;
+}
+[type='checkbox']:checked + .checkbox__new-input {
+  transform-origin: left;
+  border-radius: 30px;
+  opacity: 0.3;
 }
 .checkbox__label {
   /* width: 79px; */
