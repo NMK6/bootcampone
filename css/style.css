@@ -2,6 +2,7 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
+  font-family: 'Raleway', sans-serif;
 }
 body {
   font-size: 16px;
@@ -16,8 +17,8 @@ img {
 h1,
 h2,
 h3 {
-  color: #000;
-  font-weight: 700;
+  color: #050505;
+  font-weight: 800;
   font-size: 16px;
   font-family: 'Raleway', sans-serif;
 }
@@ -27,8 +28,21 @@ p {
 }
 a {
   text-decoration: none;
-  color: #222222;
+  color: #575757;
   font-weight: 600;
+}
+.fas {
+  font-size: 13px;
+  color: #575757;
+}
+.visually-hidden {
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
 }
 .full-height-container {
   min-height: 100vh;
@@ -81,7 +95,7 @@ a {
   content: '';
   position: absolute;
   width: 100%;
-  height: 2px;
+  height: 1.5px;
   top: -32px;
   padding: 0 12px;
   background-color: #fff;
@@ -100,7 +114,71 @@ a.nav__a--clicked {
 .title__p {
   padding-top: 6px;
 }
-
+.search {
+  display: flex;
+  flex-direction: column;
+}
+.search__form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.search__button {
+  display: flex;
+  height: 35px;
+  max-width: 265px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+.search__input {
+  border: none;
+  height: 35px;
+  width: 165px;
+  border-top: 1px solid #f2f2f2;
+  border-bottom: 1px solid #f2f2f2;
+  margin-left: -4px;
+  padding: 0 13px;
+  font-weight: 800;
+  font-size: 12px;
+}
+.search__icon {
+  background-color: #f2f2f2;
+  width: 35px;
+  height: 35px;
+  border-top-left-radius: 14px;
+  border-bottom-left-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.search__submit {
+  border: none;
+  background-color: #0065fc;
+  color: white;
+  width: 67px;
+  height: 35px;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+  font-weight: 800;
+  font-size: 12px;
+}
+.form__checkbox {
+  display: flex;
+  gap: 20px;
+}
+.checkbox__title {
+  font-size: 13px;
+}
+.checkbox__inputs-container {
+  display: flex;
+  gap: 13px;
+}
+.checkbox__input-label-container {
+  display: flex;
+  width: 108px;
+}
 .footer {
   display: flex;
   flex-direction: column;

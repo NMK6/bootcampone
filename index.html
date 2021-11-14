@@ -5,9 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Booki</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="/css/style.css" />
   </head>
   <body>
@@ -43,7 +54,65 @@
               <p class="title__p">Downtown or in nature</p>
             </div>
           </header>
-          <nav class="search"> </nav>
+          <div class="search"
+            ><form action="" method="get" class="search__form">
+              <div class="searh__button">
+                <label for="city" class="visually-hidden"
+                  >City and country</label
+                >
+                <span class="search__icon"
+                  ><i class="fas fa-map-marker-alt"></i
+                ></span>
+                <input
+                  type="text"
+                  class="search__input"
+                  id="city"
+                  name="city"
+                  placeholder="Marseille, France"
+                /><input type="submit" class="search__submit" value="Search" />
+              </div>
+              <div class="form__checkbox">
+                <h4 class="checkbox__title">Filters</h4>
+                <div class="checkbox__inputs-container">
+                  <div class="checkbox__input-label-container">
+                    <input
+                      class="checkbox__input"
+                      type="checkbox"
+                      id="cost"
+                      name="cost"
+                      value="Low cost"
+                    />
+                    <label for="cost"> Low cost</label></div
+                  ><div class="checkbox__input-label-container">
+                  <input
+                    class="checkbox__input"
+                    type="checkbox"
+                    id="family"
+                    name="family"
+                    value="Family-friendly"
+                  />
+                  <label for="family">Family-friendly</label></div>
+                  <div class="checkbox__input-label-container"> 
+                  <input
+                    class="checkbox__input"
+                    type="checkbox"
+                    id="romantic"
+                    name="romantic"
+                    value="Romantic"
+                  />
+                  <label for="romantic">Romantic</label></div><div class="checkbox__input-label-container"></div>
+                  <input
+                    class="checkbox__input"
+                    type="checkbox"
+                    id="pets"
+                    name="pets"
+                    value="Pets allowed"
+                  />
+                  <label for="pets">Pets allowed</label></div></div
+                >
+              </div>
+            </form></div
+          >
           <main class="content">
             <div class="content__first">
               <section class="accomodations"></section>
