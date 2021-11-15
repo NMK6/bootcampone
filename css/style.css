@@ -87,7 +87,7 @@ a {
 
 .nav__ul {
   display: flex;
-  gap: 40px;
+  gap: 14px;
   list-style: none;
   font-size: 11px;
 }
@@ -97,7 +97,7 @@ a {
 .nav__li:last-child {
   padding-right: 15px;
 }
-.nav__li::before {
+/* .nav__li::before {
   content: '';
   position: absolute;
   width: 100%;
@@ -109,13 +109,16 @@ a {
 }
 .nav__li--clicked::before {
   background-color: #0065fc;
-}
+} */
 a.nav__a {
   color: #575757;
+  padding: 30px 12px 20px;
+  border-top: 2px solid #fff;
 }
 
 a.nav__a--clicked {
   color: #0065fc;
+  border-color: #0065fc;
 }
 .title__p {
   padding-top: 6px;
