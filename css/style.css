@@ -419,3 +419,32 @@ div.card__img-horizontal-container {
 	width: 992px;
 	padding: 0 35px;
 }
+@media only screen and (max-width: 768px) {
+	.card__img-container--1 {
+		background: url('../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+	}
+	.card__img-container--2 {
+		background: url('../images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg');
+	}
+	.card__img-container--3 {
+		background: url('../images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg');
+	}
+	.card__img-container--4 {
+		background: url('../images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg');
+	}
+	.card__img-container--5 {
+		background: url('../images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg');
+	}
+	.card__img-container--6 {
+		background: url('../images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg');
+	}
+	.card__img-horizontal-container--1 {
+		background: url('../images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg');
+	}
+	.card__img-horizontal-container--2 {
+		background: url('../images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg');
+	}
+	.card__img-horizontal-container--3 {
+		background: url('../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
+	}
+}
