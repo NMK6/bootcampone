@@ -1,361 +1,376 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Booki</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap"
-      rel="stylesheet"
-    />
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Booki</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;800&display=swap"
+			rel="stylesheet"
+		/>
 
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-      integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="/css/style.css" />
-  </head>
-  <body>
-    <div class="full-height-container">
-      <!-- full width white background container  -->
-      <div class="page">
-        <!-- 992px width wite background container -->
-        <div class="page__content">
-          <header class="header">
-            <div class="logo-nav__container">
-              <img
-                src="/images/logo/Booki.png"
-                alt="logo"
-                srcset="/images/logo/Booki@3x.png"
-                width="48"
-                class="logo"
-              />
-              <nav
-                ><ul class="nav__ul">
-                  <li class="nav__li nav__li--clicked">
-                    <a href="#" class="nav__a nav__a--clicked"
-                      >Accommodations</a
-                    >
-                  </li>
-                  <li class="nav__li">
-                    <a href="#" class="nav__a">Activities</a>
-                  </li>
-                </ul></nav
-              >
-            </div>
-            <div class="title">
-              <h1 class="title__h">Find a place for your dream vacation</h1>
-              <p class="title__p">Downtown or in nature</p>
-            </div>
-          </header>
-          <div class="search">
-            <form action="" method="get" class="search__form">
-              <div class="searh__button">
-                <label for="city" class="visually-hidden"
-                  >City and country</label
-                >
-                <span class="search__icon"
-                  ><i class="fas fa-map-marker-alt"></i
-                ></span>
-                <input
-                  type="text"
-                  class="search__input"
-                  id="city"
-                  name="city"
-                  placeholder="Marseille, France"
-                /><input type="submit" class="search__submit" value="Search" />
-              </div>
-              <div class="form__checkbox">
-                <h4 class="checkbox__title">Filters</h4>
-                <div class="checkbox__inputs-container">
-                  <div class="checkbox__input-label-container">
-                    <input
-                      class="checkbox__input"
-                      type="checkbox"
-                      id="cost"
-                      name="cost"
-                      value="Low cost"
-                    /><span class="checkbox__new-input"
-                      ><i class="fas fa-money-bill-wave-alt"></i
-                    ></span>
-                    <label class="checkbox__label" for="cost"
-                      >Low cost</label
-                    ></div
-                  ><div class="checkbox__input-label-container">
-                    <input
-                      class="checkbox__input"
-                      type="checkbox"
-                      id="family"
-                      name="family"
-                      value="Family-friendly"
-                    /><span class="checkbox__new-input"
-                      ><i class="fas fa-child"></i
-                    ></span>
-                    <label class="checkbox__label" for="family"
-                      >Family-friendly</label
-                    ></div
-                  >
-                  <div class="checkbox__input-label-container">
-                    <input
-                      class="checkbox__input"
-                      type="checkbox"
-                      id="romantic"
-                      name="romantic"
-                      value="Romantic"
-                    /><span class="checkbox__new-input"
-                      ><i class="fas fa-heart"></i
-                    ></span>
-                    <label class="checkbox__label" for="romantic"
-                      >Romantic</label
-                    ></div
-                  ><div class="checkbox__input-label-container">
-                    <input
-                      class="checkbox__input"
-                      type="checkbox"
-                      id="pets"
-                      name="pets"
-                      value="Pets allowed"
-                    /><span class="checkbox__new-input"
-                      ><i class="fas fa-dog"></i
-                    ></span>
-                    <label class="checkbox__label" for="pets"
-                      >Pets allowed</label
-                    ></div
-                  ></div
-                >
-              </div>
-            </form>
-            <div class="checkbox__result"
-              ><i class="fas fa-info"></i
-              ><p class="result__p"
-                >More than <span class="result__number">500</span> accomodations
-                are available in this city</p
-              ></div
-            ></div
-          >
-          <main class="content">
-            <div class="content__first">
-              <section class="accomodations"
-                ><h2 class="accomodations__title"
-                  >Accommodations in
-                  <span class="accommodations__city">Marseille</span></h2
-                >
-                <div class="accommodations__cards">
-                  <div class="card"
-                    ><img
-                      class="card__img"
-                      src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                      alt="Marseille"
-                      srcset="
-                        /images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg
-                      "
-                    />
-                    <div class="card__text-container">
-                      <h3 class="card__title">Auberge La Cannebiere</h3
-                      ><p class="card__p"
-                        >Nignt starting at
-                        <span class="card__price">25 &#128;</span></p
-                      ><div class="card__stars-container"
-                        ><div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star card__star--grey"
-                          ><i class="fas fa-star"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card"
-                    ><img
-                      class="card__img"
-                      src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                      alt="Marseille"
-                      srcset="
-                        /images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg
-                      "
-                    />
-                    <div class="card__text-container">
-                      <h3 class="card__title">Auberge La Cannebiere</h3
-                      ><p class="card__p"
-                        >Nignt starting at
-                        <span class="card__price">25 &#128;</span></p
-                      ><div class="card__stars-container"
-                        ><div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star card__star--grey"
-                          ><i class="fas fa-star"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card"
-                    ><img
-                      class="card__img"
-                      src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                      alt="Marseille"
-                      srcset="
-                        /images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg
-                      "
-                    />
-                    <div class="card__text-container">
-                      <h3 class="card__title">Auberge La Cannebiere</h3
-                      ><p class="card__p"
-                        >Nignt starting at
-                        <span class="card__price">25 &#128;</span></p
-                      ><div class="card__stars-container"
-                        ><div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star card__star--grey"
-                          ><i class="fas fa-star"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card"
-                    ><img
-                      class="card__img"
-                      src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                      alt="Marseille"
-                      srcset="
-                        /images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg
-                      "
-                    />
-                    <div class="card__text-container">
-                      <h3 class="card__title">Auberge La Cannebiere</h3
-                      ><p class="card__p"
-                        >Nignt starting at
-                        <span class="card__price">25 &#128;</span></p
-                      ><div class="card__stars-container"
-                        ><div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star card__star--grey"
-                          ><i class="fas fa-star"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card"
-                    ><img
-                      class="card__img"
-                      src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                      alt="Marseille"
-                      srcset="
-                        /images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg
-                      "
-                    />
-                    <div class="card__text-container">
-                      <h3 class="card__title">Auberge La Cannebiere</h3
-                      ><p class="card__p"
-                        >Nignt starting at
-                        <span class="card__price">25 &#128;</span></p
-                      ><div class="card__stars-container"
-                        ><div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star card__star--grey"
-                          ><i class="fas fa-star"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="card"
-                    ><img
-                      class="card__img"
-                      src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-                      alt="Marseille"
-                      srcset="
-                        /images/hebergements/2_large/marcus-loke-WQJvWU_HZFo-unsplash.jpg
-                      "
-                    />
-                    <div class="card__text-container">
-                      <h3 class="card__title">Auberge La Cannebiere</h3
-                      ><p class="card__p"
-                        >Nignt starting at
-                        <span class="card__price">25 &#128;</span></p
-                      ><div class="card__stars-container"
-                        ><div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star"
-                          ><i class="fas fa-star"></i
-                        ></div>
-                        <div class="card__star card__star--grey"
-                          ><i class="fas fa-star"></i>
-                        </div>
-                      </div>
-                    </div>
-                  </div> </div
-              ></section>
-              <section class="popular"></section
-            ></div>
-            <section class="content__second activities"></section>
-          </main> </div
-      ></div>
-      <!-- full width container -->
-      <footer class="footer">
-        <!-- 992px footer's content container -->
-        <div class="footer__container"></div>
-      </footer>
-    </div>
-  </body>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+			integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<link rel="stylesheet" href="/css/style.css" />
+	</head>
+	<body>
+		<div class="full-height-container">
+			<!-- full width white background container  -->
+			<div class="page">
+				<!-- 992px width wite background container -->
+				<div class="page__content">
+					<header class="header">
+						<div class="logo-nav__container">
+							<img
+								src="/images/logo/Booki.png"
+								alt="logo"
+								srcset="/images/logo/Booki@3x.png"
+								width="48"
+								class="logo"
+							/>
+							<nav>
+								<ul class="nav__ul">
+									<li class="nav__li nav__li--clicked">
+										<a href="#" class="nav__a nav__a--clicked">
+											Accommodations
+										</a>
+									</li>
+									<li class="nav__li">
+										<a href="#" class="nav__a">Activities</a>
+									</li>
+								</ul>
+							</nav>
+						</div>
+						<div class="title">
+							<h1 class="title__h">Find a place for your dream vacation</h1>
+							<p class="title__p">Downtown or in nature</p>
+						</div>
+					</header>
+					<div class="search">
+						<form action="" method="get" class="search__form">
+							<div class="searh__button">
+								<label for="city" class="visually-hidden">
+									City and country
+								</label>
+								<span class="search__icon">
+									<i class="fas fa-map-marker-alt"></i>
+								</span>
+								<input
+									type="text"
+									class="search__input"
+									id="city"
+									name="city"
+									placeholder="Marseille, France"
+								/>
+								<input type="submit" class="search__submit" value="Search" />
+							</div>
+							<div class="form__checkbox">
+								<h4 class="checkbox__title">Filters</h4>
+								<div class="checkbox__inputs-container">
+									<div class="checkbox__input-label-container">
+										<input
+											class="checkbox__input"
+											type="checkbox"
+											id="cost"
+											name="cost"
+											value="Low cost"
+										/>
+										<span class="checkbox__new-input">
+											<i class="fas fa-money-bill-wave-alt"></i>
+										</span>
+										<label class="checkbox__label" for="cost">Low cost</label>
+									</div>
+									<div class="checkbox__input-label-container">
+										<input
+											class="checkbox__input"
+											type="checkbox"
+											id="family"
+											name="family"
+											value="Family-friendly"
+										/>
+										<span class="checkbox__new-input">
+											<i class="fas fa-child"></i>
+										</span>
+										<label class="checkbox__label" for="family">
+											Family-friendly
+										</label>
+									</div>
+									<div class="checkbox__input-label-container">
+										<input
+											class="checkbox__input"
+											type="checkbox"
+											id="romantic"
+											name="romantic"
+											value="Romantic"
+										/>
+										<span class="checkbox__new-input">
+											<i class="fas fa-heart"></i>
+										</span>
+										<label class="checkbox__label" for="romantic">
+											Romantic
+										</label>
+									</div>
+									<div class="checkbox__input-label-container">
+										<input
+											class="checkbox__input"
+											type="checkbox"
+											id="pets"
+											name="pets"
+											value="Pets allowed"
+										/>
+										<span class="checkbox__new-input">
+											<i class="fas fa-dog"></i>
+										</span>
+										<label class="checkbox__label" for="pets">
+											Pets allowed
+										</label>
+									</div>
+								</div>
+							</div>
+						</form>
+						<div class="checkbox__result">
+							<i class="fas fa-info"></i>
+							<p class="result__p">
+								More than
+								<span class="result__number">500</span>
+								accomodations are available in this city
+							</p>
+						</div>
+					</div>
+					<main class="content">
+						<div class="content__first">
+							<section class="accomodations">
+								<h2 class="accomodations__title">
+									Accommodations in
+									<span class="accommodations__city">Marseille</span>
+								</h2>
+								<div class="accommodations__cards">
+									<div class="card">
+										<img
+											class="card__img"
+											src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+											alt="Marseille"
+											srcset="
+												/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg
+											"
+										/>
+										<div class="card__text-container">
+											<h3 class="card__title">Auberge La Cannebi&#232;re</h3>
+											<p class="card__p">
+												Nignt starting at
+												<span class="card__price">25 &#128;</span>
+											</p>
+											<div class="card__stars-container">
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star card__star--grey">
+													<i class="fas fa-star"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											class="card__img"
+											src="/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+											alt="Marseille"
+											srcset="
+												/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg
+											"
+										/>
+										<div class="card__text-container">
+											<h3 class="card__title">H&#243;tel du port</h3>
+											<p class="card__p">
+												Nignt starting at
+												<span class="card__price">52 &#128;</span>
+											</p>
+											<div class="card__stars-container">
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											class="card__img"
+											src="/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+											alt="Marseille"
+											srcset="
+												/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg
+											"
+										/>
+										<div class="card__text-container">
+											<h3 class="card__title">Les mouettes Hotel</h3>
+											<p class="card__p">
+												Nignt starting at
+												<span class="card__price">76 &#128;</span>
+											</p>
+											<div class="card__stars-container">
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star card__star--grey">
+													<i class="fas fa-star"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											class="card__img"
+											src="/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+											alt="Marseille"
+											srcset="
+												/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg
+											"
+										/>
+										<div class="card__text-container">
+											<h3 class="card__title">H&#243;tel de la mer</h3>
+											<p class="card__p">
+												Nignt starting at
+												<span class="card__price">46 &#128;</span>
+											</p>
+											<div class="card__stars-container">
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star card__star--grey">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star card__star--grey">
+													<i class="fas fa-star"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											class="card__img"
+											src="/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+											alt="Marseille"
+											srcset="
+												/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg
+											"
+										/>
+										<div class="card__text-container">
+											<h3 class="card__title">Auberge Le Panier</h3>
+											<p class="card__p">
+												Nignt starting at
+												<span class="card__price">23 &#128;</span>
+											</p>
+											<div class="card__stars-container">
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star card__star--grey">
+													<i class="fas fa-star"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="card">
+										<img
+											class="card__img"
+											src="/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+											alt="Marseille"
+											srcset="
+												/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg
+											"
+										/>
+										<div class="card__text-container">
+											<h3 class="card__title">H&#243;tel chez Amina</h3>
+											<p class="card__p">
+												Nignt starting at
+												<span class="card__price">96 &#128;</span>
+											</p>
+											<div class="card__stars-container">
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+												<div class="card__star">
+													<i class="fas fa-star"></i>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<p class="accommodations__p">Show more</p>
+							</section>
+							<section class="popular"></section>
+						</div>
+						<section class="content__second activities"></section>
+					</main>
+				</div>
+			</div>
+			<!-- full width container -->
+			<footer class="footer">
+				<!-- 992px footer's content container -->
+				<div class="footer__container"></div>
+			</footer>
+		</div>
+	</body>
 </html>
