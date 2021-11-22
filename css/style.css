@@ -454,35 +454,38 @@ div.card__img-horizontal-container {
 }
 div.activities__card-img-container {
 	width: 100%;
-
 	background-size: cover;
-	background-position: center;
 	border-top-left-radius: 12px;
 	border-top-right-radius: 12px;
 }
 .activities__card-img-container--1 {
 	height: 270px;
-	background: url('../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+	background: url('../images/activites/3_medium/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
+	background-position: 50%;
 }
 .activities__card-img-container--2 {
 	height: 125px;
-	background: url('../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+	background: url('../images/activites/3_medium/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
+	background-position: 55% 40%;
 }
 .activities__card-img-container--3 {
 	height: 75px;
-	background: url('../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+	background: url('../images/activites/3_medium/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
+	background-position: 55% 20%;
 }
 .activities__card-img-container--4 {
 	height: 270px;
-	background: url('../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+	background: url('../images/activites/3_medium/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
+	background-position: center;
+	background-blend-mode: soft-light;
 }
 .activities__card-img-container--5 {
 	height: 95px;
-	background: url('../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+	background: url('../images/activites/3_medium/florian-wehde-xW9e8gdotxI-unsplash.jpg');
 }
 .activities__card-img-container--6 {
 	height: 105px;
-	background: url('../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
+	background: url('../images/activites/3_medium/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
 }
 .activities__text-container {
 	display: flex;
@@ -528,5 +531,34 @@ div.activities__card-img-container {
 	}
 	.card__img-horizontal-container--3 {
 		background: url('../images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg');
+	}
+	.activities__card-img-container--1 {
+		height: 270px;
+		background: url('../images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
+		background-position: 50%;
+	}
+	.activities__card-img-container--2 {
+		height: 125px;
+		background: url('../images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
+		background-position: 55% 40%;
+	}
+	.activities__card-img-container--3 {
+		height: 75px;
+		background: url('../images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
+		background-position: 55% 20%;
+	}
+	.activities__card-img-container--4 {
+		height: 270px;
+		background: url('../images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
+		background-position: center;
+		background-blend-mode: soft-light;
+	}
+	.activities__card-img-container--5 {
+		height: 95px;
+		background: url('../images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg');
+	}
+	.activities__card-img-container--6 {
+		height: 105px;
+		background: url('../images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
 	}
 }
