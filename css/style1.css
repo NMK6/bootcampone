@@ -62,31 +62,32 @@ a {
 	flex: 1;
 }
 .page__content {
-	padding: 0 35px 40px;
-	width: 992px;
+	padding: 0 2.1% 2.6%;
+	width: 65%;
 	display: flex;
 	flex-direction: column;
 }
 .header {
-	height: 135px;
+	height: 13.6%;
+	width: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: 25px;
+	gap: 2.5%;
 }
 .logo-nav__container {
 	display: flex;
+	height: 100%;
 	justify-content: space-between;
-	padding-top: 32px;
+	padding-top: 3.5%;
 	width: 100%;
 }
 .logo {
-	width: 45px;
-	height: 29px;
+	width: 4.5%;
 }
 
 .nav__ul {
 	display: flex;
-	gap: 14px;
+	gap: 6.5%;
 	list-style: none;
 	font-size: 11px;
 }
@@ -98,7 +99,7 @@ a {
 }
 a.nav__a {
 	color: #575757;
-	padding: 30px 12px 20px;
+	padding: 25% 10% 17%;
 	border-top: 2px solid #fff;
 }
 
@@ -501,13 +502,30 @@ div.activities__card-img-container {
 	height: 155px;
 }
 .footer__container {
-	width: 992px;
-	padding: 0 35px;
+	width: 65%;
+	padding: 0 2.1%;
 }
-@media only screen and (max-width: 1020) {
+@media only screen and (max-width: 1366px) {
+	.page__content {
+		width: 72%;
+		padding: 0 2.5%;
+	}
+	.footer__container {
+		width: 72%;
+		padding: 0 2.5% 2.9%;
+	}
+}
+@media only screen and (max-width: 992px) {
+	.page__content {
+		width: 100%;
+		padding: 0 2.5% 4%;
+	}
+	.footer__container {
+		width: 100%;
+		padding: 0 2.5%;
+	}
 }
 @media only screen and (max-width: 768px) {
-	
 	.card__img-container--1 {
 		background: url('../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
 	}
