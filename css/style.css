@@ -249,6 +249,7 @@ i.fa-info {
 	padding-top: 15px;
 	display: flex;
 	gap: 27px;
+	justify-content: space-between;
 }
 .accomodations {
 	width: 606px;
@@ -340,11 +341,12 @@ div.card__img-container {
 
 .card__img {
 	height: 80px;
-	width: 163px;
+	max-width: 163px;
+	width: 100%;
 	border-top-right-radius: 12px;
 	border-top-left-radius: 12px;
-	/* object-fit: cover;
-	object-position: center; */
+	object-fit: cover;
+	object-position: center;
 }
 div.card__img-horizontal-container {
 	height: 93px;
@@ -441,10 +443,10 @@ div.card__img-horizontal-container {
 	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .activities__card--165 {
-	height: 165px;
+	height: 125px;
 }
 .activities__card--115 {
-	height: 115px;
+	height: 95px;
 }
 .activities__card--135 {
 	height: 135px;
@@ -507,7 +509,6 @@ div.activities__card-img-container {
 @media only screen and (max-width: 1020) {
 }
 @media only screen and (max-width: 768px) {
-	
 	.card__img-container--1 {
 		background: url('../images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg');
 	}
