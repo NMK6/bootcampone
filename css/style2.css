@@ -18,8 +18,8 @@ h1,
 h2,
 h3 {
 	color: #050505;
-	font-weight: 800;
-	font-size: 16px;
+	font-weight: 700;
+	font-size: 22px;
 	font-family: 'Raleway', sans-serif;
 }
 h2 {
@@ -30,7 +30,7 @@ h3 {
 }
 p {
 	color: #575757;
-	font-size: 12px;
+	font-size: 16px;
 }
 a {
 	text-decoration: none;
@@ -38,8 +38,8 @@ a {
 	font-weight: 600;
 }
 .fas {
-	font-size: 13px;
-	color: #575757;
+	font-size: 18px;
+	color: #050505;
 }
 .visually-hidden {
 	clip: rect(0 0 0 0);
@@ -62,35 +62,35 @@ a {
 	flex: 1;
 }
 .page__content {
-	padding: 0 2.1% 2.6%;
-	width: 65%;
+	padding: 0 35px 40px;
+	width: 1440px;
 	display: flex;
 	flex-direction: column;
+	gap: 18px;
 }
 .header {
-	height: 135px;
+	height: 180px;
 	width: 100%;
 	display: flex;
 	flex-direction: column;
-	gap: 2.5%;
 }
 .logo-nav__container {
 	display: flex;
-	height: 80px;
+	height: 130px;
 	justify-content: space-between;
 	align-items: center;
 	width: 100%;
 }
 .logo {
-	width: 45px;
-	height: 29px;
+	width: 65px;
+	height: 45px;
 }
 
 .nav__ul {
 	display: flex;
-	gap: 14px;
+	gap: 35px;
 	list-style: none;
-	font-size: 11px;
+	font-size: 16px;
 }
 .nav__li {
 	position: relative;
@@ -100,8 +100,8 @@ a {
 }
 a.nav__a {
 	color: #575757;
-	padding: 30px 12px 20px;
-	border-top: 2px solid #fff;
+	padding: 50px 12px 20px;
+	border-top: 3px solid #fff;
 }
 
 a.nav__a--clicked {
@@ -137,19 +137,23 @@ a.nav__a--clicked {
 }
 .search__input {
 	border: none;
-	height: 35px;
-	width: 165px;
+	height: 50px;
+	width: 235px;
 	border-top: 1px solid #f2f2f2;
 	border-bottom: 1px solid #f2f2f2;
 	margin-left: -4px;
 	padding: 0 13px;
-	font-weight: 800;
-	font-size: 12px;
+	font-weight: 700;
+	font-size: 18px;
+	color: #050505;
+}
+.search__input::placeholder {
+	color: #050505;
 }
 .search__icon {
 	background-color: #f2f2f2;
-	width: 35px;
-	height: 35px;
+	width: 50px;
+	height: 50px;
 	border-top-left-radius: 14px;
 	border-bottom-left-radius: 14px;
 	display: inline-flex;
@@ -160,12 +164,12 @@ a.nav__a--clicked {
 	border: none;
 	background-color: #0065fc;
 	color: white;
-	width: 67px;
-	height: 35px;
+	width: 95px;
+	height: 50px;
 	border-top-right-radius: 14px;
 	border-bottom-right-radius: 14px;
-	font-weight: 800;
-	font-size: 12px;
+	font-weight: 700;
+	font-size: 18px;
 }
 .form__checkbox {
 	display: flex;
@@ -175,7 +179,7 @@ a.nav__a--clicked {
 }
 .checkbox__title {
 	font-size: 13px;
-	font-weight: 800;
+	font-weight: 700;
 }
 .checkbox__inputs-container {
 	display: flex;
@@ -258,8 +262,8 @@ i.fa-info {
 	gap: 27px;
 }
 .accomodations {
-	width: 65.75%;
-	height: 432px;
+	width: 61%;
+	height: auto;
 	background-color: #f2f2f2;
 	border-radius: 15px;
 	padding: 33px 27px;
@@ -270,20 +274,20 @@ i.fa-info {
 .accommodations__cards {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 20px 17px;
+	gap: 33px;
 }
 .accommodations__p {
 	color: #575757;
 	font-weight: 800;
 }
 .card {
-	width: 31%;
-	height: 140px;
+	width: 30.52%;
+	height: 200px;
 	background-color: #fff;
 	border-radius: 18px;
 	display: flex;
 	flex-direction: column;
-	padding: 4px;
+	padding: 5px;
 	gap: 5px;
 }
 .card--horizontal {
@@ -328,8 +332,8 @@ div.card__img-container {
 }
 
 .card__img {
-	height: 80px;
-	max-width: 163px;
+	height: 115px;
+	max-width: 245px;
 	width: 100%;
 	border-top-right-radius: 12px;
 	border-top-left-radius: 12px;
@@ -374,8 +378,8 @@ div.card__img-horizontal-container {
 	color: #f2f2f2;
 }
 .popular {
-	width: 31.3%;
-	height: 432px;
+	width: 29%;
+	height: auto;
 	background-color: #f2f2f2;
 	border-radius: 15px;
 	display: flex;
@@ -462,8 +466,18 @@ div.card__img-horizontal-container {
 	width: 65%;
 	padding: 0 2.1%;
 }
-
-@media only screen and (max-width: 1366px) {
+@media only screen and (max-width: 1920px) {
+	.page__content {
+		/* width: 100%; */
+		/* padding: 0 2.5% 3.5%; */
+	}
+}
+@media only screen and (max-width: 1440px) {
+	.page__content {
+		width: 100%;
+	}
+}
+/* @media only screen and (max-width: 1366px) {
 	.page__content {
 		width: 72%;
 		padding: 0 2.5% 3.5%;
@@ -473,6 +487,8 @@ div.card__img-horizontal-container {
 		padding: 0 2.5%;
 	}
 }
+
+
 @media only screen and (max-width: 1290px) {
 	.page__content {
 		width: 77%;
@@ -512,7 +528,7 @@ div.card__img-horizontal-container {
 		width: 100%;
 		padding: 0 2.5%;
 	}
-}
+} */
 @media only screen and (max-width: 910px) {
 	h1 {
 		font-size: 46px;
