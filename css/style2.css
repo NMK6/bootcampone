@@ -355,7 +355,6 @@ div.card__img-container {
 
 .card__img {
 	height: 115px;
-	max-width: 245px;
 	width: 100%;
 	border-top-right-radius: 12px;
 	border-top-left-radius: 12px;
@@ -488,7 +487,14 @@ div.card__img-horizontal-container {
 .footer__text {
 	font-weight: 700;
 }
-
+@media only screen and (max-width: 1870px) {
+	.page__content {
+		width: 97%;
+	}
+	.footer__container {
+		width: 97%;
+	}
+}
 @media only screen and (max-width: 1536px) {
 	.page__content {
 		width: 98.4%;
@@ -648,6 +654,12 @@ div.card__img-horizontal-container {
 @media only screen and (max-width: 768px) {
 	.page__content {
 		width: 100%;
+		padding: 0 0 50px;
+	}
+	.title,
+	.search,
+	.activities {
+		padding: 0 50px;
 	}
 	.footer__container {
 		width: 100%;
