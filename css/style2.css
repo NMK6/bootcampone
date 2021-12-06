@@ -587,9 +587,13 @@ div.card__img-horizontal-container {
 	.content__first {
 		flex-direction: column-reverse;
 	}
+	.accomodations {
+		background-color: white;
+	}
 	.popular {
 		width: 100%;
 		height: auto;
+		border-radius: 0;
 	}
 	.card {
 		padding: 8px;
@@ -599,9 +603,7 @@ div.card__img-horizontal-container {
 	.card__img-horizontal {
 		height: 100%;
 	}
-	/* .card__star .fas {
-		font-size: px;
-	} */
+
 	.accomodations {
 		width: 100%;
 		height: auto;
@@ -626,16 +628,18 @@ div.card__img-horizontal-container {
 		width: 100%;
 	}
 	.activities__card {
-		height: 395px;
+		height: 190px;
 		width: 100%;
 	}
+	.card__img--activities {
+		height: 135px;
+	}
 	.card__img {
-		height: 115px;
 		max-width: 100%;
 	}
 	.activities__text-container {
-		height: 115px;
-		padding-left: 40px;
+		height: 60px;
+		padding-left: 25px;
 	}
 	.footer__column:not(:last-child) {
 		padding-bottom: 40px;
@@ -644,10 +648,8 @@ div.card__img-horizontal-container {
 @media only screen and (max-width: 768px) {
 	.page__content {
 		width: 100%;
-		padding: 0 2.5% 10%;
 	}
 	.footer__container {
 		width: 100%;
-		padding: 0 2.5%;
 	}
 }
