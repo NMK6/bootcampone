@@ -625,24 +625,26 @@ div.card__img-horizontal-container {
 	.checkbox__result {
 		width: 100%;
 	}
+	.content {
+		gap: 45px;
+	}
 	.content__first {
 		flex-direction: column-reverse;
-	}
-	.cotent__first {
 		gap: 0;
 	}
+
 	.accommodations {
 		background-color: white;
 		width: 100%;
 		height: auto;
-		padding: 10px 27px;
+		padding: 36px 27px 10px;
 	}
 	.accommodations__cards-row {
 		flex-direction: column;
-		gap: 20px;
+		gap: 13px;
 	}
-	.accomodations__cards {
-		gap: 20px;
+	.accommodations__cards {
+		gap: 13px;
 	}
 	.popular {
 		width: 100%;
@@ -676,7 +678,7 @@ div.card__img-horizontal-container {
 		flex-direction: column;
 		height: auto;
 		width: 100%;
-		gap: 20px;
+		gap: 26px;
 	}
 
 	.activities__short-cards-container {
@@ -702,7 +704,7 @@ div.card__img-horizontal-container {
 		padding-left: 25px;
 	}
 	.footer__column:not(:last-child) {
-		padding-bottom: 40px;
+		padding-bottom: 48px;
 	}
 	.search__button {
 		max-width: 100%;
@@ -727,5 +729,10 @@ div.card__img-horizontal-container {
 	.search__input {
 		width: 60%;
 		font-size: 16px;
+	}
+}
+@media only screen and (max-width: 325px) {
+	.search__input {
+		font-size: 14px;
 	}
 }
