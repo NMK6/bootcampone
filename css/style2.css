@@ -593,7 +593,8 @@ a.nav__a--clicked {
 [type='checkbox']:checked + .checkbox__new-input {
 	transform-origin: left;
 	border-radius: 30px;
-	opacity: 0.3;
+	opacity: 0.7;
+	background-color: #050505;
 }
 .checkbox__label {
 	height: 48px;
@@ -660,10 +661,12 @@ i.fa-info {
 	gap: 33px;
 }
 .accommodations__p {
-	color: #050505;
 	font-weight: 700;
 	font-size: 18px;
 	padding-top: 10px;
+}
+.accommodations__p a {
+	color: #050505;
 }
 .card {
 	width: 30.6%;
@@ -681,6 +684,9 @@ i.fa-info {
 	flex-direction: row;
 	width: 100%;
 	height: 145px;
+}
+.card--vertical .card__title:hover {
+	color: #0065fc;
 }
 .activities__card {
 	width: 65px;
@@ -1030,6 +1036,7 @@ div.card__img-horizontal-container {
 		width: 100%;
 		height: 200px;
 	}
+
 	.activities__cards {
 		flex-direction: column;
 		height: auto;
