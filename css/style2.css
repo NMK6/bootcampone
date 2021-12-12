@@ -569,6 +569,12 @@ h1 {
 	border-bottom: 3px solid #f2f2f2;
 	border-right: 3px solid #f2f2f2;
 	border-radius: 30px;
+	transition: 1s all ease;
+	box-shadow: white 0px 2px 8px 0px;
+}
+.checkbox__input-label-container:hover {
+	border-color: #deebff;
+	box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 }
 .checkbox__input {
 	visibility: hidden;
@@ -589,20 +595,7 @@ h1 {
 	align-items: center;
 	justify-content: center;
 }
-@keyframes circle {
-	0% {
-		transform: rotate(0);
-	}
 
-	100% {
-		transform: rotate(360deg);
-	}
-}
-.checkbox__new-input:hover {
-	animation-name: circle;
-	animation-duration: 1s;
-	animation-timing-function: ease-in-out;
-}
 .checkbox__new-input .fas {
 	color: #0065fc;
 	font-size: 18px;
