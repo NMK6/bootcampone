@@ -593,8 +593,10 @@ a.nav__a--clicked {
 [type='checkbox']:checked + .checkbox__new-input {
 	transform-origin: left;
 	border-radius: 30px;
-	opacity: 0.7;
-	background-color: #050505;
+	background-color: #0065fc;
+}
+[type='checkbox']:checked + .checkbox__new-input .fas {
+	color: #deebff;
 }
 .checkbox__label {
 	height: 48px;
