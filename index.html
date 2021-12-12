@@ -58,7 +58,7 @@
 					</header>
 					<div class="search">
 						<form action="" method="get" class="search__form">
-							<div class="searh__button">
+							<div class="search__button">
 								<label for="city" class="visually-hidden">
 									City and country
 								</label>
@@ -72,7 +72,13 @@
 									name="city"
 									placeholder="Marseille, France"
 								/>
-								<input type="submit" class="search__submit" value="Search" />
+								<button type="submit" class="search__submit" value="">
+									<span class="search__screen">Search</span>
+
+									<span class="search__mob">
+										<i class="fa fa-search" aria-hidden="true"></i>
+									</span>
+								</button>
 							</div>
 							<div class="form__checkbox">
 								<h4 class="checkbox__title">Filters</h4>
@@ -144,224 +150,228 @@
 							<p class="result__p">
 								More than
 								<span class="result__number">500</span>
-								accomodations are available in this city
+								accommodations are available in this city
 							</p>
 						</div>
 					</div>
 					<main class="content">
 						<div class="content__first">
-							<section class="accomodations">
-								<h2 class="accomodations__title">
+							<section class="accommodations">
+								<h2 class="accommodations__title">
 									Accommodations in
 									<span class="accommodations__city">Marseille</span>
 								</h2>
 								<div class="accommodations__cards">
-									<div class="card card--vertical">
-										<img
-											class="card__img"
-											src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
-											alt="Marseille"
-											srcset="
-												/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg
-											"
-										/>
+									<div class="accommodations__cards-row">
+										<div class="card card--vertical">
+											<img
+												class="card__img"
+												src="/images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg"
+												alt="Marseille"
+												srcset="
+													/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg
+												"
+											/>
 
-										<div class="card__text-container">
-											<h3 class="card__title">Auberge La Cannebi&#232;re</h3>
-											<p class="card__p">
-												Nignt starting at
-												<span class="card__price">25 &#128;</span>
-											</p>
-											<div class="card__stars-container">
-												<div class="card__star">
-													<i class="fas fa-star"></i>
+											<div class="card__text-container">
+												<h3 class="card__title">Auberge La Cannebi&#232;re</h3>
+												<p class="card__p">
+													Nignt starting at
+													<span class="card__price">25 &#128;</span>
+												</p>
+												<div class="card__stars-container">
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star card__star--grey">
+														<i class="fas fa-star"></i>
+													</div>
 												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
+											</div>
+										</div>
+										<div class="card card--vertical">
+											<img
+												class="card__img"
+												src="/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
+												alt="Marseille"
+												srcset="
+													/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg
+												"
+											/>
+
+											<div class="card__text-container">
+												<h3 class="card__title">H&#243;tel du port</h3>
+												<p class="card__p">
+													Nignt starting at
+													<span class="card__price">52 &#128;</span>
+												</p>
+												<div class="card__stars-container">
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
 												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star card__star--grey">
-													<i class="fas fa-star"></i>
+											</div>
+										</div>
+										<div class="card card--vertical">
+											<img
+												class="card__img"
+												src="/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
+												alt="Marseille"
+												srcset="
+													/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg
+												"
+											/>
+
+											<div class="card__text-container">
+												<h3 class="card__title">Les mouettes Hotel</h3>
+												<p class="card__p">
+													Nignt starting at
+													<span class="card__price">76 &#128;</span>
+												</p>
+												<div class="card__stars-container">
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star card__star--grey">
+														<i class="fas fa-star"></i>
+													</div>
 												</div>
 											</div>
 										</div>
 									</div>
-									<div class="card card--vertical">
-										<img
-											class="card__img"
-											src="/images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg"
-											alt="Marseille"
-											srcset="
-												/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg
-											"
-										/>
+									<div class="accommodations__cards-row">
+										<div class="card card--vertical">
+											<img
+												class="card__img"
+												src="/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
+												alt="Marseille"
+												srcset="
+													/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg
+												"
+											/>
 
-										<div class="card__text-container">
-											<h3 class="card__title">H&#243;tel du port</h3>
-											<p class="card__p">
-												Nignt starting at
-												<span class="card__price">52 &#128;</span>
-											</p>
-											<div class="card__stars-container">
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
+											<div class="card__text-container">
+												<h3 class="card__title">H&#243;tel de la mer</h3>
+												<p class="card__p">
+													Nignt starting at
+													<span class="card__price">46 &#128;</span>
+												</p>
+												<div class="card__stars-container">
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star card__star--grey">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star card__star--grey">
+														<i class="fas fa-star"></i>
+													</div>
 												</div>
 											</div>
 										</div>
-									</div>
-									<div class="card card--vertical">
-										<img
-											class="card__img"
-											src="/images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg"
-											alt="Marseille"
-											srcset="
-												/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg
-											"
-										/>
+										<div class="card card--vertical">
+											<img
+												class="card__img"
+												src="/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
+												alt="Marseille"
+												srcset="
+													/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg
+												"
+											/>
 
-										<div class="card__text-container">
-											<h3 class="card__title">Les mouettes Hotel</h3>
-											<p class="card__p">
-												Nignt starting at
-												<span class="card__price">76 &#128;</span>
-											</p>
-											<div class="card__stars-container">
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star card__star--grey">
-													<i class="fas fa-star"></i>
+											<div class="card__text-container">
+												<h3 class="card__title">Auberge Le Panier</h3>
+												<p class="card__p">
+													Nignt starting at
+													<span class="card__price">23 &#128;</span>
+												</p>
+												<div class="card__stars-container">
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star card__star--grey">
+														<i class="fas fa-star"></i>
+													</div>
 												</div>
 											</div>
 										</div>
-									</div>
-									<div class="card card--vertical">
-										<img
-											class="card__img"
-											src="/images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg"
-											alt="Marseille"
-											srcset="
-												/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg
-											"
-										/>
+										<div class="card card--vertical">
+											<img
+												class="card__img"
+												src="/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
+												alt="Marseille"
+												srcset="
+													/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg
+												"
+											/>
 
-										<div class="card__text-container">
-											<h3 class="card__title">H&#243;tel de la mer</h3>
-											<p class="card__p">
-												Nignt starting at
-												<span class="card__price">46 &#128;</span>
-											</p>
-											<div class="card__stars-container">
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star card__star--grey">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star card__star--grey">
-													<i class="fas fa-star"></i>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="card card--vertical">
-										<img
-											class="card__img"
-											src="/images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg"
-											alt="Marseille"
-											srcset="
-												/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg
-											"
-										/>
-
-										<div class="card__text-container">
-											<h3 class="card__title">Auberge Le Panier</h3>
-											<p class="card__p">
-												Nignt starting at
-												<span class="card__price">23 &#128;</span>
-											</p>
-											<div class="card__stars-container">
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star card__star--grey">
-													<i class="fas fa-star"></i>
-												</div>
-											</div>
-										</div>
-									</div>
-									<div class="card card--vertical">
-										<img
-											class="card__img"
-											src="/images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg"
-											alt="Marseille"
-											srcset="
-												/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg
-											"
-										/>
-
-										<div class="card__text-container">
-											<h3 class="card__title">H&#243;tel chez Amina</h3>
-											<p class="card__p">
-												Nignt starting at
-												<span class="card__price">96 &#128;</span>
-											</p>
-											<div class="card__stars-container">
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
-												</div>
-												<div class="card__star">
-													<i class="fas fa-star"></i>
+											<div class="card__text-container">
+												<h3 class="card__title">H&#243;tel chez Amina</h3>
+												<p class="card__p">
+													Nignt starting at
+													<span class="card__price">96 &#128;</span>
+												</p>
+												<div class="card__stars-container">
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
+													<div class="card__star">
+														<i class="fas fa-star"></i>
+													</div>
 												</div>
 											</div>
 										</div>
@@ -497,7 +507,7 @@
 							</section>
 						</div>
 						<section class="content__second activities">
-							<h2 class="accomodations__title">
+							<h2 class="accommodations__title">
 								Activities in
 								<span class="accommodations__city">Marseille</span>
 							</h2>
@@ -618,7 +628,7 @@
 						<p class="footer__text">Data and Privacy</p>
 					</div>
 					<div class="footer__column">
-						<h3 class="footer__title">Our Accomodations</h3>
+						<h3 class="footer__title">Our Accommodations</h3>
 						<p class="footer__text">Quality Assessment</p>
 						<p class="footer__text">You have a hotel?</p>
 					</div>
