@@ -586,6 +586,20 @@ a.nav__a--clicked {
 	align-items: center;
 	justify-content: center;
 }
+@keyframes circle {
+	0% {
+		transform: rotate(0);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+.checkbox__new-input:hover {
+	animation-name: circle;
+	animation-duration: 1s;
+	animation-timing-function: ease-in-out;
+}
 .checkbox__new-input .fas {
 	color: #0065fc;
 	font-size: 18px;
