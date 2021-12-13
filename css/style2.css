@@ -388,6 +388,9 @@ a {
 	color: #575757;
 	font-weight: 600;
 }
+h3 a {
+	color: #050505;
+}
 .fas {
 	font-size: 18px;
 	color: #050505;
@@ -904,8 +907,28 @@ div.card__img-horizontal-container {
 		gap: 25px;
 	}
 }
+@media only screen and (max-width: 1200px) {
+	h3 a {
+		font-size: 13.6px;
+	}
+	.card__p {
+		font-size: 13px;
+	}
+}
+.card__text-container {
+	padding-top: 0;
+}
 
-@media only screen and (max-width: 1220px) {
+@media only screen and (max-width: 992px) {
+	.card__text-container {
+		padding-top: 5px;
+	}
+	h3 {
+		font-size: 16px;
+	}
+	.card__p {
+		font-size: 14px;
+	}
 	.page__content {
 		width: 63%;
 		gap: 30px;
